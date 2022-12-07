@@ -5,7 +5,8 @@ export default function CharacterCard(props) {
     return (
         <div className="character-card">
             <p>{props.name}</p>
-            <p>Cool picture</p>
+            <img src={CLAZZ_IMAGES[props.name]} />
+            {/* <p>Cool picture</p> */}
             <p>Explore</p>
         </div>
 
