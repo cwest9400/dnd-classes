@@ -5,9 +5,12 @@ export default function CharacterCard(props) {
     return (
         <div className="character-card">
             <p>{props.name}</p>
-            <img src={CLAZZ_IMAGES[props.name]} />
+            <img className="clazz-image" src={CLAZZ_IMAGES[props.name]} />
             {/* <p>Cool picture</p> */}
-            <p>Explore</p>
+            <div className='character-footer'>
+                <p className='explore-link'>Explore</p>
+            </div>
+            
         </div>
 
     )
