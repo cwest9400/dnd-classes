@@ -1,6 +1,6 @@
 import '../styles/character-detail.css'
 
-export default function CardContainer(props) {
+export default function CharacterDetail(props) {
     return (
         <div className="character-detail">
             <h2>Clazz name</h2>
