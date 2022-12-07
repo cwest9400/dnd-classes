@@ -1,3 +1,4 @@
+import CLAZZ_IMAGES from './clazzImages'
 import '../styles/character-card.css'
 
 export default function CharacterCard(props) {
