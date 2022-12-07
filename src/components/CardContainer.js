@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 import '../styles/card-container.css'
 
 export default function CardContainer(props) {
-    const [clazzes, setClazzes] = useState ([])
+    const [clazzes, setClazzes] = useState([])
     useEffect(() => {
         fetch("https://api.open5e.com/classes/")
             .then((res) => res.json())
@@ -15,15 +15,12 @@ export default function CardContainer(props) {
     // console.log(clazzes[1])
     return (
         <div className="card-container">
-           {clazzes.map((clazz) => (
-               <div className="character-card">
-               <p>{clazz.name}</p>
-               <p>Cool picture</p>
-               
-           </div>
+            {clazzes.map((clazz) => (
+                <CharacterCard name={clazz.name} />
 
-           ))}
-            
+
+            ))}
+
         </div>
 
     )
