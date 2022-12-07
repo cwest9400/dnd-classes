@@ -1,0 +1,7 @@
+.card-container {
+    background-color: rgb(58, 44, 70);
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
