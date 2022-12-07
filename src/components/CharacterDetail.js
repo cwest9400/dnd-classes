@@ -1,4 +1,3 @@
-
 import '../styles/character-detail.css'
 
 export default function CardContainer(props) {
@@ -6,7 +5,7 @@ export default function CardContainer(props) {
         <div className="character-detail">
             <h2>Clazz name</h2>
             <p>cool picture</p>
-            <p>Character Detail</p>
+            <p>character Detail</p>
             <p>character stats</p>
             
            
