@@ -9,10 +9,12 @@ function App() {
     <header>
      <Header />
     </header>
+    
     <main>
       <CardContainer />
 
     </main>
+
     <footer>
       <Footer />
     </footer>
