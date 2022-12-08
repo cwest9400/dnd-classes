@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<CardContainer />} />
           <Route path="/details/:name" element={<CharacterDetail />} />
         </Routes>
-      {/* <CardContainer /> */}
+      
 
     </main>
 
