@@ -1,5 +1,4 @@
 import CharacterCard from './CharacterCard'
-
 import { useState, useEffect } from "react"
 import '../styles/card-container.css'
 import { Link } from 'react-router-dom'
