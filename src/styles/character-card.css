@@ -1,6 +1,6 @@
 .character-card {
     background-color: rgb(179, 178, 180);
-    border-radius: 8px;
+    
     width: 420px ;
     height: 618px;
         display: flex;
@@ -18,9 +18,11 @@
     border-radius: 0 0px 8px 8px;
 }
 
-.explore-link {
+.card-title {
     margin: 0;
-    padding: 10px
+    padding: 10px;
+    height: 48px
+    
 }
 
 .clazz-image {
