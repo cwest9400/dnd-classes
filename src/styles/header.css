@@ -1,5 +1,8 @@
 a {
-   text-decoration: none;  
+   text-decoration: none;
+   width: auto;
+   display: inline-block;
+    
 }
 
 

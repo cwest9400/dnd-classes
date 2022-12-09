@@ -4,7 +4,7 @@ h1 {
 
 .card-container {
     background-color: rgb(245, 241, 241);
-    padding: 125px 0 0 150px;
+    padding: 125px 0px 0 150px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 80px;
