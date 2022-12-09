@@ -2,8 +2,8 @@
     background-color: rgb(179, 178, 180);
     border-radius: 8px;
     width: 420px ;
-    height: auto;
-    display: flex;
+    height: 618px;
+        display: flex;
     flex-direction: column;
     justify-content: space-between;
     
@@ -24,6 +24,6 @@
 }
 
 .clazz-image {
-    /* width: auto; */
-    /* height: 618px; */
+    /* width: auto;
+    height: 618px; */
 }

@@ -1,7 +1,10 @@
 .character-detail {
     /* background-color: rgb(58, 44, 70); */
     /* min-height: 400px; */
+    width: 420px;
     display: flex;
     flex-direction: column;
+    
     row-gap: 24px;
+    padding: 48px;;
 }

@@ -15,15 +15,15 @@ export default function CardContainer(props) {
     }, [])
     return (
         <div>
+            <div className="card-container">
             {clazzes.map((clazz) => {
                 return (
-                    <div className="card-container">
                         <Link to={`/details/${clazz.name}`} key={clazz.name}>
                             <CharacterCard name={clazz.name} />
                         </Link>
-                    </div>
                 )
             })}
+            </div>
         </div>
     )
 }
