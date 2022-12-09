@@ -16,7 +16,6 @@ export default function CharacterDetail(props) {
             })
             .catch(console.error)
     }, [name])
-
     if (!clazzes) {
         return <p>Loading...</p>
     }
@@ -27,9 +26,8 @@ export default function CharacterDetail(props) {
             </div>
             <div className='character-detail'>
                 <div className='clazz-image'>
-                <img src={CLAZZ_IMAGES[name]} />
+                    <img src={CLAZZ_IMAGES[name]} />
                 </div>
-                {/* <p>{clazzes.desc}</p> */}
                 <div className='class-stats-container'>
                     <div className='stats-frame'>
                         <h3 className='title-box'>Hit Points</h3>
@@ -49,15 +47,14 @@ export default function CharacterDetail(props) {
                         <p className='bolder'>{clazzes.prof_skills}</p>
                     </div>
                     <div className='stats-frame'>
-                        <h3 className='title-box'>Equipment</h3> 
+                        <h3 className='title-box'>Equipment</h3>
                         <p className='bolder'>{clazzes.equipment}</p>
                     </div>
                 </div>
-                {/* <p>Stat Table {clazzes.table}</p> */}
                 <div className='title-box'>
-                <a href={dndBeyondUrl} target="_blank">
-                    Advanced description
-                </a>
+                    <a href={dndBeyondUrl} target="_blank">
+                        Advanced description
+                    </a>
                 </div>
             </div>
         </>

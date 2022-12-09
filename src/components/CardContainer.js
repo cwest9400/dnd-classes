@@ -1,7 +1,7 @@
 import '../styles/card-container.css'
-import CharacterCard from './CharacterCard'
 import { useState, useEffect } from "react"
 import { Link } from 'react-router-dom'
+import CharacterCard from './CharacterCard'
 
 export default function CardContainer(props) {
     const [clazzes, setClazzes] = useState([])
@@ -16,13 +16,13 @@ export default function CardContainer(props) {
     return (
         <div>
             <div className="card-container">
-            {clazzes.map((clazz) => {
-                return (
+                {clazzes.map((clazz) => {
+                    return (
                         <Link to={`/details/${clazz.name}`} key={clazz.name}>
                             <CharacterCard name={clazz.name} />
                         </Link>
-                )
-            })}
+                    )
+                })}
             </div>
         </div>
     )

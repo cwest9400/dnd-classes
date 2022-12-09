@@ -3,26 +3,20 @@
     margin-top: 80px;
     padding: 16px 0 0 48px;
     width: 100%;
-
 }
 
 .character-detail {
     background-color: rgb(245, 241, 241);
     width: 100%;
-    /* padding: 125px 0 0 150px; */
-
     display: flex;
     justify-content: center;
-
     row-gap: 24px;
     padding: 32px;
-    ;
 }
 
 .title-box {
     background-color: #312d66;
     color: whitesmoke;
-    /* width: 25%; */
     margin-top: 0;
     height: 48px;
     display: flex;
@@ -32,7 +26,6 @@
 }
 
 .class-stats-container {
-    /* background-color: brown; */
     width: 50%;
     font-weight: 600;
     padding: 0px 10px;
@@ -42,11 +35,9 @@
 }
 
 .stats-frame {
-    /* background-color: azure; */
     border: solid;
     border-radius: 0 0 8px 8px;
     border-color: #312d66;
-
 }
 
 .bolder {
