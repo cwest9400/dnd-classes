@@ -1,10 +1,9 @@
 import '../styles/footer.css';
 
-export default function Footer(){
-
+export default function Footer() {
     return (
         <p className="footer">
-        about this project
+            <a href="https://github.com/cwest9400/dnd-classes">About this project</a>
         </p>
     )
 }
