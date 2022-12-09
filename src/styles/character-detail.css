@@ -1,9 +1,14 @@
+.class-detail-title {
+    margin-top:80px;
+    padding: 32px
+}
 .character-detail {
-    /* background-color: rgb(58, 44, 70); */
-    /* min-height: 400px; */
-    width: 420px;
+    background-color: rgb(61, 193, 169);
+    width: 100%;
+    /* padding: 125px 0 0 150px; */
+    
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     
     row-gap: 24px;
     padding: 48px;;
