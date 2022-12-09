@@ -1,31 +1,45 @@
 .character-card {
-    background-color: rgb(179, 178, 180);
+    background-color: rgb(245, 241, 241);
+    border-color: #312d66;
+    border-style:  solid;
+    border-width: 3px;
+    border-radius: 0 0 8px 8px;
+
+    width: 40%;
+    min-width: 250px;
+    height: 75%;
     
-    width: 420px ;
-    height: 618px;
-        display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:flex-end;
+    align-items: center;
     
-    
-    
+
+
+
 }
 
-.character-footer {
-    background-color:black;
-    color: whitesmoke;
-    margin: 0px;
-    border-radius: 0 0px 8px 8px;
-}
 
 .card-title {
     margin: 0;
     padding: 10px;
-    height: 48px
-    
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clazz-image {
-    /* width: auto;
-    height: 618px; */
+    display: flex;
+    height: 100%;
+    object-fit: contain;
+    /* justify-content: baseline; */
 }
+    .character-footer {
+        background-color: #312d66;
+        color: whitesmoke;
+        margin: 0px;
+        border-radius: 0 0px 2px 2px;
+        height: 70px;
+        width:100%
+    }

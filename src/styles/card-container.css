@@ -1,9 +1,14 @@
+h1 {
+    margin: 0;
+}
+
 .card-container {
-    background-color: rgb(88, 180, 110);
-    padding-top: 100px;
+    background-color: rgb(245, 241, 241);
+    padding: 125px 0 0 150px;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 36px;
+    margin-top: 80px;
+
+    
 
 }
