@@ -1,9 +1,12 @@
 .card-container {
-    background-color: blueviolet;
-    min-height: 400px;
+    background-color: rgb(88, 180, 110);
+    padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     row-gap: 24px;
     column-gap: 10px;
+    
 }

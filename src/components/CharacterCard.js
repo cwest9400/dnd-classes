@@ -1,5 +1,5 @@
-import CLAZZ_IMAGES from './clazzImages'
 import '../styles/character-card.css'
+import CLAZZ_IMAGES from './clazzImages'
 
 export default function CharacterCard(props) {
     return (

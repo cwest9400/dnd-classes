@@ -1,6 +1,6 @@
+import '../styles/character-detail.css'
 import { useState, useEffect } from "react"
 import { useParams } from "react-router"
-import '../styles/character-detail.css'
 import CLAZZ_IMAGES from "./clazzImages"
 
 export default function CharacterDetail(props) {

@@ -13,21 +13,17 @@ export default function CardContainer(props) {
             })
             .catch(console.error)
     }, [])
-    // console.log(clazzes[1])
     return (
-        
-        <div className="card-container">
+        <div>
             {clazzes.map((clazz) => {
                 return (
-                <Link to={`/details/${clazz.name}`} key={clazz.name}>
-                <CharacterCard name={clazz.name} />
-                </Link>
-
-
-            )})}
-
+                    <div className="card-container">
+                        <Link to={`/details/${clazz.name}`} key={clazz.name}>
+                            <CharacterCard name={clazz.name} />
+                        </Link>
+                    </div>
+                )
+            })}
         </div>
-
     )
-
 }
