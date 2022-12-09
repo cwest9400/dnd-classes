@@ -35,19 +35,20 @@ export default function CharacterDetail(props) {
                         <p><span className='bolder'>Starting HP:</span> {clazzes.hp_at_1st_level}</p>
                         <p><span className='bolder'>Level up HP:</span> {clazzes.hp_at_higher_levels}</p>
                     </div>
-                    <div className='proficiencies'>
+                    <div className='stats-frame'>
                         <h3 className='title-box'>Proficiencies</h3>
                         <p><span className='bolder'>Armor:</span> {clazzes.prof_armor}</p>
                         <p><span className='bolder'>Weapon:</span> {clazzes.prof_weapons}</p>
                         <p><span className='bolder'>Tools:</span> {clazzes.prof_tools}</p>
                         <p><span className='bolder'>Saving throws:</span> {clazzes.prof_saving_throws}</p>
                     </div>
-                    <div className='skills'>
+                    <div className='stats-frame'>
                         <h3 className='title-box'>Skills</h3>
-                        <p>{clazzes.prof_skills}</p>
+                        <p className='bolder'>{clazzes.prof_skills}</p>
                     </div>
-                    <div className='equipment'>
-                        <h3 className='title-box'>Equipment</h3> <p>{clazzes.equipment}</p>
+                    <div className='stats-frame'>
+                        <h3 className='title-box'>Equipment</h3> 
+                        <p className='bolder'>{clazzes.equipment}</p>
                     </div>
                 </div>
                 {/* <p>Stat Table {clazzes.table}</p> */}

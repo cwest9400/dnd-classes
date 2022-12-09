@@ -19,6 +19,7 @@
     background-color: #312d66;
     color: whitesmoke;
     /* width: 25%; */
+    margin-top: 0;
     height: 48px;
     display: flex;
     justify-content: center;
@@ -29,11 +30,15 @@
     width: 50%;
     font-weight: 600;
     padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 .stats-frame {
     /* background-color: azure; */
     border: solid;
     border-radius: 0 0 8px 8px ;
+    
 }
 .proficiencies {
     /* background-color: aliceblue; */
@@ -46,4 +51,5 @@
 }
 .bolder {
     /* font-weight: 900; */
+    padding-left: 8px;
 }
