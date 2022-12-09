@@ -1,15 +1,49 @@
 .class-detail-title {
+  
     margin-top:80px;
-    padding: 32px
+    padding: 32px;
+    width: 100%;
 }
 .character-detail {
-    background-color: rgb(61, 193, 169);
+    
     width: 100%;
     /* padding: 125px 0 0 150px; */
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     
     row-gap: 24px;
-    padding: 48px;;
+    padding: 32px;;
+}
+.title-box {
+    background-color: #312d66;
+    color: whitesmoke;
+    /* width: 25%; */
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class-stats-container {
+    /* background-color: brown; */
+    width: 50%;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+.stats-frame {
+    /* background-color: azure; */
+    border: solid;
+    border-radius: 0 0 8px 8px ;
+}
+.proficiencies {
+    /* background-color: aliceblue; */
+}
+.skills {
+    /* background-color: aliceblue; */
+}
+.equipment {
+    /* background-color: aliceblue; */
+}
+.bolder {
+    /* font-weight: 900; */
 }

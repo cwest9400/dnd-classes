@@ -28,34 +28,32 @@ export default function CharacterDetail(props) {
             <div className="character-detail">
                 <img src={CLAZZ_IMAGES[name]} />
                 {/* <p>{clazzes.desc}</p> */}
-                <div className='class-stats'>
-                    <div className='stats'>
-                        <h2>Class stats</h2>
-                        <p>Hit Dice: {clazzes.hit_dice}</p>
-                        <p>Starting HP: {clazzes.hp_at_1st_level}</p>
-                        <p>Level up HP: {clazzes.hp_at_higher_levels}</p>
+                <div className='class-stats-container'>
+                    <div className='stats-frame'>
+                        <h3 className='title-box'>Class stats</h3>
+                        <p><span className='bolder'>Hit Dice:</span> {clazzes.hit_dice}</p>
+                        <p><span className='bolder'>Starting HP:</span> {clazzes.hp_at_1st_level}</p>
+                        <p><span className='bolder'>Level up HP:</span> {clazzes.hp_at_higher_levels}</p>
                     </div>
                     <div className='proficiencies'>
-                        <h3>Proficiencies</h3>
-                        <p>Armor: {clazzes.prof_armor}</p>
-                        <p>Weapon: {clazzes.prof_weapons}</p>
-                        <p>Tools: {clazzes.prof_tools}</p>
-                        <p>Saving throws: {clazzes.prof_saving_throws}</p>
+                        <h3 className='title-box'>Proficiencies</h3>
+                        <p><span className='bolder'>Armor:</span> {clazzes.prof_armor}</p>
+                        <p><span className='bolder'>Weapon:</span> {clazzes.prof_weapons}</p>
+                        <p><span className='bolder'>Tools:</span> {clazzes.prof_tools}</p>
+                        <p><span className='bolder'>Saving throws:</span> {clazzes.prof_saving_throws}</p>
                     </div>
                     <div className='skills'>
-                        <p>Skills: {clazzes.prof_skills}</p>
+                        <h3 className='title-box'>Skills</h3>
+                        <p>{clazzes.prof_skills}</p>
                     </div>
                     <div className='equipment'>
-                        <p>Equipment: {clazzes.equipment}</p>
+                        <h3 className='title-box'>Equipment</h3> <p>{clazzes.equipment}</p>
                     </div>
                 </div>
                 {/* <p>Stat Table {clazzes.table}</p> */}
                 <a href={dndBeyondUrl} target="_blank">
                     Advanced description
                 </a>
-
-
-
             </div>
         </>
     )
