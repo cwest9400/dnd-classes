@@ -25,12 +25,14 @@ export default function CharacterDetail(props) {
             <div className='class-detail-title'>
                 <h1>{name}</h1>
             </div>
-            <div className="character-detail">
+            <div className='character-detail'>
+                <div className='clazz-image'>
                 <img src={CLAZZ_IMAGES[name]} />
+                </div>
                 {/* <p>{clazzes.desc}</p> */}
                 <div className='class-stats-container'>
                     <div className='stats-frame'>
-                        <h3 className='title-box'>Class stats</h3>
+                        <h3 className='title-box'>Hit Points</h3>
                         <p><span className='bolder'>Hit Dice:</span> {clazzes.hit_dice}</p>
                         <p><span className='bolder'>Starting HP:</span> {clazzes.hp_at_1st_level}</p>
                         <p><span className='bolder'>Level up HP:</span> {clazzes.hp_at_higher_levels}</p>
@@ -52,9 +54,11 @@ export default function CharacterDetail(props) {
                     </div>
                 </div>
                 {/* <p>Stat Table {clazzes.table}</p> */}
+                <div className='title-box'>
                 <a href={dndBeyondUrl} target="_blank">
                     Advanced description
                 </a>
+                </div>
             </div>
         </>
     )

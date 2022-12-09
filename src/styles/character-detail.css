@@ -1,20 +1,24 @@
 .class-detail-title {
-  
-    margin-top:80px;
-    padding: 32px;
+    background-color: rgb(245, 241, 241);
+    margin-top: 80px;
+    padding: 16px 0 0 48px;
     width: 100%;
+
 }
+
 .character-detail {
-    
+    background-color: rgb(245, 241, 241);
     width: 100%;
     /* padding: 125px 0 0 150px; */
-    
+
     display: flex;
     justify-content: center;
-    
+
     row-gap: 24px;
-    padding: 32px;;
+    padding: 32px;
+    ;
 }
+
 .title-box {
     background-color: #312d66;
     color: whitesmoke;
@@ -24,7 +28,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 8px;
 }
+
 .class-stats-container {
     /* background-color: brown; */
     width: 50%;
@@ -34,22 +40,16 @@
     flex-direction: column;
     gap: 16px;
 }
+
 .stats-frame {
     /* background-color: azure; */
     border: solid;
-    border-radius: 0 0 8px 8px ;
-    
+    border-radius: 0 0 8px 8px;
+    border-color: #312d66;
+
 }
-.proficiencies {
-    /* background-color: aliceblue; */
-}
-.skills {
-    /* background-color: aliceblue; */
-}
-.equipment {
-    /* background-color: aliceblue; */
-}
+
 .bolder {
-    /* font-weight: 900; */
+    font-weight: 900;
     padding-left: 8px;
 }

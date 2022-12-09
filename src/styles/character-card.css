@@ -13,12 +13,11 @@
     flex-direction: column;
     justify-content:flex-end;
     align-items: center;
-    
-
-
-
 }
 
+.character-card:hover {
+    background-color: #312d660f;
+}
 
 .card-title {
     margin: 0;
